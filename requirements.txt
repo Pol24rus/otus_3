@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+=======
+flake8==7.0.0
+pylint==3.1.0
+selenium==4.19
+pytest==8.1.1
+pip == 24.0
+>>>>>>> a11653d (2024_02_22)
+requests
