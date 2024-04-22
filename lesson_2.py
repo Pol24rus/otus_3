@@ -1,4 +1,7 @@
 """Решение проблемы с закрытием Google Chrome """
+import random
+import time
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -26,7 +29,19 @@ user_name = driver.find_element(By.XPATH, "//*[@id='user-name']")  # * - пои�
 # user_name = driver.find_element(By.XPATH, "//input[@data-test='username']")
 # user_name = driver.find_element(By.XPATH, "//input[@name='user-name']")
 """поиск по индексу"""
-user_name = driver.find_element(By.XPATH, '(//div[@class="form_group"])[1]')
+# user_name = driver.find_element(By.XPATH, '(//div[@class="form_group"])[1]')
 # - локатор для элемента с class="form_group" номер один на странице", если их два или больше
 
-user_name.send_keys("test")
+"""поиск по тексту"""
+# user_name = driver.find_element(By.XPATH, "//h4[text()='Password for all users:']")
+# h4 - тэг, text() - метод поиска, 'Password for all users:' точный текст
+
+"""поиск по части текста"""
+# user_name = driver.find_element(By.XPATH, "//h4[contains(text(), 'Password for all ')]")
+# contains(text() - метод поиска по части текста
+
+user_name.send_keys("standard_user")
+pass_word = driver.find_element(By.CSS_SELECTOR, "#password")
+pass_word.send_keys("secret_sauce")
+button_login = driver.find_element(By.XPATH, "//input[@value='Login']")
+button_login.click()
