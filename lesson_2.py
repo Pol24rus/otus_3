@@ -22,9 +22,9 @@ driver.maximize_window()
 # user_name = driver.find_element(By.XPATH,"//input[@id='user-name']")  # ID XPATH
 user_name = driver.find_element(By.XPATH, "//*[@id='user-name']")  # * - поиск по всем тэгам
 """кастомный x-path"""
-user_name = driver.find_element(By.XPATH, "//input[@placeholder='Username']")
-user_name = driver.find_element(By.XPATH, "//input[@data-test='username']")
-user_name = driver.find_element(By.XPATH, "//input[@name='user-name']")
+# user_name = driver.find_element(By.XPATH, "//input[@placeholder='Username']")
+# user_name = driver.find_element(By.XPATH, "//input[@data-test='username']")
+# user_name = driver.find_element(By.XPATH, "//input[@name='user-name']")
 """поиск по индексу"""
 user_name = driver.find_element(By.XPATH, '(//div[@class="form_group"])[1]')
 # - локатор для элемента с class="form_group" номер один на странице", если их два или больше
