@@ -23,6 +23,8 @@ password_negative = "secret_sau"
 """Тест на негативный логин"""
 user_name = driver.find_element(By.XPATH, "//input[@id='user-name']")
 user_name.send_keys(login_negative_user)
+# но можно не вводить доп переменную, а стереть символ с помощью селениум, например
+# user_name.send_keys(Keys.BACKSPACE)
 print("Input wrong login")
 pass_word = driver.find_element(By.XPATH, "//input[@id='password']")
 pass_word.send_keys(password_all)
@@ -44,7 +46,8 @@ assert get_url != url
 print("Good test for negative url")
 
 """Сброс введенных данных"""
-driver.get(base_url)
+# driver.get(base_url)  # работает, но правильно ниже.
+driver.refresh()
 
 """Тест на негативный пароль"""
 user_name = driver.find_element(By.XPATH, "//input[@id='user-name']")
@@ -68,5 +71,5 @@ error_button.click()
 print('Click Error-Button')
 print("value_warring_test - ", value_warring_test)
 # Проверю тем, что после клика не будет текста на странице. Но элемента уже нет на странице, поэтому его не найти. и
-# не проверить
+# значит не проверить
 # assert value_warring_test != "Epic sadface: Username and password do not match any user in this service"
