@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54a786e5-33d2-4f64-a429-5717eb71a8c6" name="Changes" comment="2024_04_22">
-      <change afterPath="$PROJECT_DIR$/headless_2.py" afterDir="false" />
+    <list default="true" id="54a786e5-33d2-4f64-a429-5717eb71a8c6" name="Changes" comment="2024_05_15-2">
+      <change afterPath="$PROJECT_DIR$/Test_2_negativ.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -36,6 +41,9 @@
     &quot;accountId&quot;: &quot;0efe8d3e-33e0-487f-b346-256a052c3a3e&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/headless_1.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -50,26 +58,30 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Test_1.executor": "Run",
+    "Python.Test_2.executor": "Run",
+    "Python.Test_2_negativ (1).executor": "Run",
     "Python.headless.executor": "Run",
     "Python.headless_2.executor": "Run",
+    "Python.headless_3.executor": "Run",
     "Python.lesson.executor": "Run",
     "Python.lesson_2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/OTUS_3/Python_Selenium",
+    "last_opened_file_path": "C:/PycharmProjects/otus_3",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PycharmProjects\otus_3" />
       <recent name="D:\OTUS_3\Python_Selenium" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\PycharmProjects\otus_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.headless_2">
+  <component name="RunManager" selected="Python.Test_2_negativ (1)">
     <configuration name="Test_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Selenium" />
       <option name="ENV_FILES" value="" />
@@ -92,7 +104,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="headless" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_2_negativ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Selenium" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,7 +117,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/headless.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_2_negativ.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="headless_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_2_negativ" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Selenium" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,7 +139,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/headless_2.py" />
+      <option name="SCRIPT_NAME" value="C:\PycharmProjects\otus_3\Test_2_negativ.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="headless_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Selenium" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,7 +161,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/headless_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.headless_2" />
-        <item itemvalue="Python.headless" />
+        <item itemvalue="Python.Test_2_negativ (1)" />
         <item itemvalue="Python.Test_1" />
+        <item itemvalue="Python.Test_2_negativ" />
+        <item itemvalue="Python.headless_3" />
         <item itemvalue="Python.lesson_2" />
-        <item itemvalue="Python.lesson" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +264,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713782485707</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2024_05_15">
+      <option name="closed" value="true" />
+      <created>1715769367509</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715769367509</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2024_05_15-2">
+      <option name="closed" value="true" />
+      <created>1715769530266</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715769530266</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,7 +296,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2024_04_22" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024_04_22" />
+    <MESSAGE value="2024_05_15" />
+    <MESSAGE value="2024_05_15-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024_05_15-2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
