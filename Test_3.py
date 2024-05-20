@@ -24,9 +24,9 @@ user_name.send_keys(Keys.BACKSPACE)  # удаляю символ из логин
 print("Input wrong login")
 pass_word = driver.find_element(By.XPATH, "//input[@id='password']")
 pass_word.send_keys(password_all)
-print("Input Password")
+# print("Input Password")
 pass_word.send_keys(Keys.RETURN)  # клик Enter, можно Enter но лучше RETURN
-print("Press ENTER")
+# print("Press ENTER")
 time.sleep(3)
 """Проверка на негативный логин"""
 warring_text = driver.find_element(By.XPATH, "//h3[@data-test='error']")
@@ -39,7 +39,7 @@ driver.refresh()  # обновим страницу
 """Тест на негативный пароль"""
 user_name = driver.find_element(By.XPATH, "//input[@id='user-name']")
 user_name.send_keys(login_standard_user)
-print("Input login")
+# print("Input login")
 pass_word = driver.find_element(By.XPATH, "//input[@id='password']")
 pass_word.send_keys(password_all)
 pass_word.send_keys(Keys.BACKSPACE)
@@ -58,14 +58,18 @@ driver.refresh()
 """Позитивный сценарий"""
 user_name = driver.find_element(By.XPATH, "//input[@id='user-name']")
 user_name.send_keys(login_standard_user)
-print("Input login")
+# print("Input login")
 pass_word = driver.find_element(By.XPATH, "//input[@id='password']")
 pass_word.send_keys(password_all)
-print("Input Password")
+# print("Input Password")
 button_login = driver.find_element(By.XPATH, "//input[@id='login-button']")
 button_login.click()
-print("Input login button")
+# print("Input login button")
 
+"""в фильтре меняю строку выпадающего меню"""
 filter_button = driver.find_element(By.XPATH, "//select[@class='product_sort_container']")
 filter_button.send_keys(Keys.RETURN)
 filter_button.send_keys(Keys.DOWN)
+time.sleep(3)
+filter_button.send_keys(Keys.RETURN)
+print("Изменен фильтр")
