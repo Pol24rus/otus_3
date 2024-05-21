@@ -18,43 +18,7 @@ driver.maximize_window()
 login_standard_user = "standard_user"
 password_all = "secret_sauce"
 
-user_name = driver.find_element(By.XPATH, "//input[@id='user-name']")
-user_name.send_keys(login_standard_user)
-time.sleep(3)
-user_name.send_keys(Keys.BACKSPACE)  # удаляю символ из логина
-print("Input wrong login")
-pass_word = driver.find_element(By.XPATH, "//input[@id='password']")
-pass_word.send_keys(password_all)
-# print("Input Password")
-pass_word.send_keys(Keys.RETURN)  # клик Enter, можно Enter но лучше RETURN
-# print("Press ENTER")
-time.sleep(1)
-"""Проверка на негативный логин"""
-warring_text = driver.find_element(By.XPATH, "//h3[@data-test='error']")
-value_warring_test = warring_text.text
-assert value_warring_test == "Epic sadface: Username and password do not match any user in this service"
-print("Good negative test by login")
 
-driver.refresh()  # обновим страницу
-
-"""Тест на негативный пароль"""
-user_name = driver.find_element(By.XPATH, "//input[@id='user-name']")
-user_name.send_keys(login_standard_user)
-# print("Input login")
-pass_word = driver.find_element(By.XPATH, "//input[@id='password']")
-pass_word.send_keys(password_all)
-pass_word.send_keys(Keys.BACKSPACE)
-print("Input wrong Password")
-time.sleep(1)
-pass_word.send_keys(Keys.RETURN)
-
-"""Проверка на негативный пароль"""
-warring_text = driver.find_element(By.XPATH, "//h3[@data-test='error']")
-value_warring_test = warring_text.text
-assert value_warring_test == "Epic sadface: Username and password do not match any user in this service"
-print("Good negative test by pass_word")
-
-driver.refresh()
 
 """Позитивный сценарий"""
 user_name = driver.find_element(By.XPATH, "//input[@id='user-name']")
@@ -80,7 +44,7 @@ now_date = (datetime.datetime.now().strftime("%Y.%m.%d.%H.%M.%S"))
 print(now_date)
 name_screenshot = 'screenshot' + now_date + '.png'
 print(name_screenshot)
-driver.save_screenshot(f'./users/poladko.dv/изображения/
-driver.save_screenshot('name_screenshot')
+# driver.save_screenshot(f"./users/poladko.dv/изображения/{name_screenshot}")
+driver.save_screenshot('users/poladko.dv/изображения/' + name_screenshot)  # не работает указаение папки для сохранения
 print("сделан скрин")
 # driver.save_screenshot('2024_05_21.png')  # делает скриншот

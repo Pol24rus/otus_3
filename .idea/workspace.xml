@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54a786e5-33d2-4f64-a429-5717eb71a8c6" name="Changes" comment="2024_05_16-2">
+    <list default="true" id="54a786e5-33d2-4f64-a429-5717eb71a8c6" name="Changes" comment="2024_05_20">
+      <change afterPath="$PROJECT_DIR$/Test_3_screen.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_3.py" afterDir="false" />
     </list>
@@ -54,24 +55,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Test_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Test_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Test_2_negativ (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Test_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.headless.executor&quot;: &quot;Run&quot;,
-    &quot;Python.headless_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.headless_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson_2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/PycharmProjects/otus_3&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Test_1.executor": "Run",
+    "Python.Test_2.executor": "Run",
+    "Python.Test_2_negativ (1).executor": "Run",
+    "Python.Test_3.executor": "Run",
+    "Python.Test_3_screen.executor": "Run",
+    "Python.headless.executor": "Run",
+    "Python.headless_2.executor": "Run",
+    "Python.headless_3.executor": "Run",
+    "Python.lesson.executor": "Run",
+    "Python.lesson_2.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/PycharmProjects/otus_3",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\PycharmProjects\otus_3" />
@@ -81,7 +83,7 @@
       <recent name="C:\PycharmProjects\otus_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Test_3">
+  <component name="RunManager" selected="Python.Test_3_screen">
     <configuration name="Test_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Selenium" />
       <option name="ENV_FILES" value="" />
@@ -170,7 +172,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="headless_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_3_screen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Selenium" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,7 +185,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/headless_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_3_screen.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Test_3_screen" />
         <item itemvalue="Python.Test_3" />
         <item itemvalue="Python.Test_2_negativ (1)" />
         <item itemvalue="Python.Test_1" />
         <item itemvalue="Python.Test_2_negativ" />
-        <item itemvalue="Python.headless_3" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715858520635</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2024_05_20">
+      <option name="closed" value="true" />
+      <created>1716201712973</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716201712973</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -316,7 +326,8 @@
     <MESSAGE value="2024_05_15-2" />
     <MESSAGE value="2024_05_16" />
     <MESSAGE value="2024_05_16-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024_05_16-2" />
+    <MESSAGE value="2024_05_20" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024_05_20" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
