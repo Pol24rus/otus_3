@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54a786e5-33d2-4f64-a429-5717eb71a8c6" name="Changes" comment="2024_05_20">
-      <change afterPath="$PROJECT_DIR$/Test_3_screen.py" afterDir="false" />
+    <list default="true" id="54a786e5-33d2-4f64-a429-5717eb71a8c6" name="Changes" comment="2024_05_21">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_3.py" afterDir="false" />
     </list>
@@ -63,6 +62,7 @@
     "Python.Test_3.executor": "Run",
     "Python.Test_3_screen.executor": "Run",
     "Python.headless.executor": "Run",
+    "Python.headless_1.executor": "Run",
     "Python.headless_2.executor": "Run",
     "Python.headless_3.executor": "Run",
     "Python.lesson.executor": "Run",
@@ -83,7 +83,7 @@
       <recent name="C:\PycharmProjects\otus_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Test_3_screen">
+  <component name="RunManager" selected="Python.Test_1">
     <configuration name="Test_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Selenium" />
       <option name="ENV_FILES" value="" />
@@ -120,28 +120,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_2_negativ.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_2_negativ" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Selenium" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\PycharmProjects\otus_3\Test_2_negativ.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,6 +172,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="headless_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Selenium" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/headless_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Python_Selenium" />
       <option name="ENV_FILES" value="" />
@@ -218,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Test_1" />
+        <item itemvalue="Python.headless_1" />
         <item itemvalue="Python.Test_3_screen" />
         <item itemvalue="Python.Test_3" />
         <item itemvalue="Python.Test_2_negativ (1)" />
-        <item itemvalue="Python.Test_1" />
-        <item itemvalue="Python.Test_2_negativ" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716201712973</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2024_05_21">
+      <option name="closed" value="true" />
+      <created>1716278882248</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716278882248</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,7 +335,8 @@
     <MESSAGE value="2024_05_16" />
     <MESSAGE value="2024_05_16-2" />
     <MESSAGE value="2024_05_20" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024_05_20" />
+    <MESSAGE value="2024_05_21" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024_05_21" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

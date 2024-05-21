@@ -80,7 +80,7 @@ now_date = (datetime.datetime.now().strftime("%Y.%m.%d.%H.%M.%S"))
 print(now_date)
 name_screenshot = 'screenshot' + now_date + '.png'
 print(name_screenshot)
-driver.save_screenshot(f'./users/poladko.dv/изображения/
+# driver.save_screenshot(f"./users/poladko.dv/изображения/)
 driver.save_screenshot('name_screenshot')
 print("сделан скрин")
 # driver.save_screenshot('2024_05_21.png')  # делает скриншот
